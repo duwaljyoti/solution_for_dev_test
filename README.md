@@ -24,6 +24,7 @@
         // for ease we are assuming that we are using the eloquent ORM of Laravel in any PHP project.
         $reward = (object)[
             'amount' => $operatedOrder['price_details']['price'] / $amountRewardEquivalent,
+            'expiry_date' => Carbon::today()->addYear(1)
         ];
         // reward point will have amount.
         // we can use the created_at timestamp of the reward to check the validity of the reward.
