@@ -5,6 +5,8 @@
 
 [DB Diagram for the reward system](https://dbdiagram.io/d/60e9707e7e498c3bb3f070c9)
 
+[Use of reward points](https://docs.google.com/document/d/1DA_kp--SZToUQozXIXjjC2i_iCUmqdNFWp8pFAIVLlU/edit?usp=sharing)
+
 ### PHP function to credit user reward points after completion.
 
 ```
